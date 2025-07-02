@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType> <!-- or Library for class libraries -->
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>YourNamespace</RootNamespace>
+    <AssemblyName>YourAssemblyName</AssemblyName>
+    <Nullable>enable</Nullable> <!-- Optional: Enable nullable reference types -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Package references -->
+    <!-- PackageReference Include="Newtonsoft.Json" Version="12.0.3" /-->
+    <!-- Other package references as needed -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Project references if you have any -->
+    <!-- <ProjectReference Include="..\OtherProject\OtherProject.csproj" /> -->
+  </ItemGroup>
+
+</Project>
